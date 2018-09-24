@@ -97,6 +97,7 @@ class Worker {
       Thread.sleep(duration);
     } catch (InterruptedException e) {
       System.exit(1);
+      
     }
   }
 }
